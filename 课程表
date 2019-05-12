@@ -1,0 +1,88 @@
+<html>
+<head>
+<style type="text/css">
+table,th,td
+{
+        height: 60px;
+    width: 1200px;
+    margin: auto;
+
+border:1px solid rgb(255, 166, 0);
+box-shadow: 2px 3px 3px #888888;
+}
+</style>
+</head>
+
+<body style="background-color:PowderBlue;">
+        <h1 style="text-align:center" color="red">课程表</h1>
+<table>
+<tr>
+<th></th>
+<th>星期一 </th>
+<th>星期二</th>
+<th>星期三 </th>
+<th>星期四 </th>
+<th>星期五 </th>
+<th>星期六 </th>
+<th>星期日 </th>
+<tr>
+    <th>第一节</th>
+    <th> web应用开发技术_01(西区第一公共教学楼C411) </th>
+    <th> 大学英语四级（A）_64(西区第一公共教学楼C221) </th>
+    <th>  管理信息系统_02(西区第一公共教学楼C105) </th>
+    <th>  数据库原理及应用_01(西区第一公共教学楼B405) 
+            运营管理_02(西区第一公共教学楼B405)  </th>
+    <th> 大学英语四级（A）_64(西区外语学院楼219)  </th>
+    <th> </th>
+    <th> </th>
+    </tr>
+   
+        <tr>
+            <th>第二节</th>
+            <th> 毛泽东思想与中国特色社会主义理论体系概论_13(西区第一公共教学楼A120)  </th>
+            <th>管理科学基础_01(西区第一公共教学楼C411) </th>
+            <th> 毛泽东思想与中国特色社会主义理论体系概论_13(西区第一公共教学楼A120)   </th>
+            <th>管理科学基础_01(西区第一公共教学楼C411)  </th>
+            <th>运营管理_02(西区第一公共教学楼B405)  </th>
+            <th> </th>
+            <th> </th>
+            </tr>
+            
+                <tr>
+                       <th colspan="8" >午休</th>
+                    <tr>
+                            <th>第三节</th>
+                            <th>  管理信息系统_02(西区第一公共教学楼C105 </th>
+                            <th> 形势与政策2_41(西区第一公共教学楼C123) </th>
+                            <th>会计学_01(西区第一公共教学楼B101)  </th>
+                            <th>体育</th>
+                            <th> 毛泽东思想与中国特色社会主义理论体系概论_13(西区第一公共教学楼A120)  </th>
+                            <th> </th>
+                            <th> </th>
+                            </tr>
+                                    <tr>
+                                            <th>第四节</th>
+                                            <th> 电子商务_01(西区第一公共教学楼B303)  </th>
+                                            <th>  数据库原理及应用_01(西区第一公共教学楼C109) </th>
+                                            <th> </th>
+                                            <th>  会计学_01(西区第一公共教学楼B101)  </th>
+                                            <th></th>
+                                            <th> </th>
+                                            <th> </th>
+                                            </tr>
+                                                    <tr>
+                                                            <th colspan="8">晚饭</th>
+                                                            <tr>
+                                                                    <tr>
+                                                                            <th>第五节</th>
+                                                                            <th> </th>
+                                                                            <th></th>
+                                                                            <th> </th>
+                                                                            <th> </th>
+                                                                            <th> </th>
+                                                                            <th></th>
+                                                                            <th> </th>
+                                                                    </tr>
+</table>
+</body>
+</html>
