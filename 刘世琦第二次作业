@@ -1,0 +1,188 @@
+<!DOCTYPE html> 
+<html>
+<head>
+         <meta charset="utf-8"/>
+        <title>课程表</title>
+<style type="text/css">
+table,th,td
+{
+        height: 80px;
+    width: 1400px;
+    margin: auto;
+border:1px solid rgb(255, 166, 0);
+box-shadow: 10px 10px 5px #888888;
+}
+a:hover {color: yellow}
+b:hover {color: green}
+c:hover {color: red}
+.pointer{cursor: pointer;}
+td:hover {
+    position: relative;
+    top:-10px;
+    left:10px;
+  }
+</style>
+</head>
+
+<body style="background-color:PowderBlue;">
+        <table  align="center">
+                  <caption><h1><a class="pointer">课程表</a></h1></caption>
+                         <thead>       
+      <tr>         
+                <th></th>
+                <th><b class="pointer">星期一</a></th>
+                <th><b class="pointer">星期二</a></th>
+                <th><b class="pointer">星期三</a></th>
+                <th><b class="pointer">星期四</a></th>
+                <th><b class="pointer">星期五</a></th>
+                </tr>
+                        </thead>
+                <tbody>
+                                <tr>
+                                    <th rowspan="2"><a class="pointer" onmouseover="a2(this)" onmouseout="b2(this)">上午</a></th>
+                                    <td class="pointer" onmouseover="a3(this)" onmouseout="b3(this)" >web应用开发技术</td>
+                                    <td class="pointer" onmouseover="a4(this)" onmouseout="b4(this)">大学英语四级</td>
+                                    <td class="pointer" onmouseover="a5(this)" onmouseout="b5(this)">管理信息系统</td>
+                                    <td class="pointer" onmouseover="a6(this)" onmouseout="b6(this)">数据库原理及应用</td>
+                                    <td class="pointer" onmouseover="a7(this)" onmouseout="b7(this)">大学英语四级</td>
+                                </tr>                             
+                                <tr class="pointer">
+                                    <td onmouseover="a8(this)" onmouseout="b8(this)">毛泽东思想与中国特色社会主义理论体系概论</td>
+                                    <td onmouseover="a9(this)" onmouseout="b9(this)">管理科学基础</td>
+                                    <td onmouseover="a8(this)" onmouseout="b8(this)">毛泽东思想与中国特色社会主义理论体系概论</td>
+                                    <td onmouseover="a9(this)" onmouseout="b9(this)">管理科学基础</td>
+                                    <td onmouseover="a10(this)" onmouseout="b10(this)">运营管理</td>
+                                </tr>                              
+                                <tr>
+                                    <th rowspan="2"><a class="pointer" onmouseover="a1(this)" onmouseout="b1(this)">下午</a></th>
+                                    <td class="pointer" onmouseover="a5(this)" onmouseout="b5(this)">管理信息系统</td>
+                                    <td class="pointer" onmouseover="a11(this)" onmouseout="b11(this)">形势与政策</td>
+                                    <td class="pointer" onmouseover="a12(this)" onmouseout="b12(this)">会计学</td>
+                                    <td class="pointer" onmouseover="a13(this)" onmouseout="b13(this)">体育</td>
+                                    <td class="pointer" onmouseover="a8(this)" onmouseout="b8(this)">毛泽东思想与中国特色社会主义理论体系概论</td>
+                                </tr>                               
+                                <tr class="pointer">
+                                    <td onmouseover="a14(this)" onmouseout="b14(this)">电子商务</td>
+                                    <td onmouseover="a6(this)" onmouseout="b6(this)">数据库原理及应用</td>
+                                    <td></td>
+                                    <td onmouseover="a12(this)" onmouseout="b12(this)">会计学</td>
+                                    <td></td>
+                                </tr>                                                      
+                            </tbody>
+                        </table>
+<script>
+                function a1(obj) {
+                obj.style.backgroundColor="red";
+                obj.innerHTML = "14:00-15:40<br/>16:00-17:40";
+                }
+                function b1(obj) {
+                obj.style.backgroundColor="transparent";
+                obj.innerHTML="下午";
+                }      
+                 function a2(obj) {
+                obj.style.backgroundColor="red";
+                obj.innerHTML = "8:20-10:00<br/>10:20-12:00";
+                }
+                function b2(obj) {
+                obj.style.backgroundColor="transparent";
+                obj.innerHTML="上午";
+                }      
+                function a3(obj) {
+                obj.style.backgroundColor="orange";
+                obj.innerHTML = "一公教C411<br/>老师：吕成功<br/>1-15周上";
+                }
+                function b3(obj) {
+                obj.style.backgroundColor="transparent";
+                obj.innerHTML="web应用开发技术";
+                }      
+                function a4(obj) {
+                obj.style.backgroundColor="purple";
+                obj.innerHTML = "一公教C221<br/>老师：张蔚<br/>1-17周上";
+                }
+                function b4(obj) {
+                obj.style.backgroundColor="transparent";
+                obj.innerHTML="大学英语四级";
+                }            
+                function a5(obj) {
+                obj.style.backgroundColor="gray";
+                obj.innerHTML = "一公教C105<br/>老师：刘烨<br/>1-15周上";
+                }
+                function b5(obj) {
+                obj.style.backgroundColor="transparent";
+                obj.innerHTML="管理信息系统";
+                }            
+                function a6(obj) {
+                obj.style.backgroundColor="blue";
+                obj.innerHTML = "一公教B405<br/>老师：吴君<br/>1-15周上";
+                }
+                function b6(obj) {
+                obj.style.backgroundColor="transparent";
+                obj.innerHTML="数据库原理及应用";
+                }
+                function a7(obj) {
+                obj.style.backgroundColor="purple";
+                obj.innerHTML = "外语学院楼219<br/>老师：张蔚<br/>1-17周上";
+                }
+                function b7(obj) {
+                obj.style.backgroundColor="transparent";
+                obj.innerHTML="大学英语四级";
+                }
+                function a8(obj) {
+                obj.style.backgroundColor="cyan";
+                obj.innerHTML = "一公教A120<br/>老师：顾洪英<br/>1-16周上";
+                }
+                function b8(obj) {
+                obj.style.backgroundColor="transparent";
+                obj.innerHTML="毛泽东思想与中国特色社会主义理论体系概论";
+                }            
+                function a9(obj) {
+                obj.style.backgroundColor="orangered";
+                obj.innerHTML = "一公教C411<br/>老师：赵方方<br/>3-17周上";
+                }
+                function b9(obj) {
+                obj.style.backgroundColor="transparent";
+                obj.innerHTML="管理科学基础";
+                }          
+                function a10(obj) {
+                obj.style.backgroundColor="greenyellow";
+                obj.innerHTML = "一公教B405<br/>老师：刘亮 邓华<br/>1-15周上";
+                }
+                function b10(obj) {
+                obj.style.backgroundColor="transparent";
+                obj.innerHTML="运营管理";
+                }            
+                function a11(obj) {
+                obj.style.backgroundColor="wheat";
+                obj.innerHTML = "一公教C123<br/>老师：邵夏 李坤<br/>5-7周上";
+                }
+                function b11(obj) {
+                obj.style.backgroundColor="transparent";
+                obj.innerHTML="形势与政策";
+                }            
+                function a12(obj) {
+                obj.style.backgroundColor="maroon";
+                obj.innerHTML = "一公教B101<br/>老师：刘晓晖 姜红<br/>1-17周上";
+                }
+                function b12(obj) {
+                obj.style.backgroundColor="transparent";
+                obj.innerHTML="会计学";
+                }            
+                function a13(obj) {
+                obj.style.backgroundColor="teal";
+                obj.innerHTML = "体育馆<br/>老师：陈露<br/>1-15周上";
+                }
+                function b13(obj) {
+                obj.style.backgroundColor="transparent";
+                obj.innerHTML="体育";
+                }
+                function a14(obj) {
+                obj.style.backgroundColor="#D94A38";
+                obj.innerHTML = "一公教B303<br/>老师：张亮<br/>3-17周上";
+                }
+                function b14(obj) {
+                obj.style.backgroundColor="transparent";
+                obj.innerHTML="电子商务";
+                }                     
+            </script>
+</body>
+</html>
